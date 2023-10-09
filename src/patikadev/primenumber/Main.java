@@ -27,6 +27,7 @@ public class Main {
             out.println(sayi + " sayısı ASAL değildir !");
         }
     }
+
     public static boolean asalMi(int sayi, int bolen){
         if((Math.pow(bolen,2) > sayi)){
             return true;
