@@ -1,2 +1,2 @@
 # patikadev-assignments
-patika.dev - Back-End Web Development
+Kodluyoruz & patika.dev - Back-End Web Geliştirme eğitimi süresince verilen ödevlerin tutulacağı bir depodur. 
