@@ -30,7 +30,7 @@ public class Main {
 
     public static double vkiHesapla(double boy, double kilo){
         if (boy <= 0 || kilo <= 0){
-            out.println("Hatali giris. Boy ve Kilo degerleri pozitif degerler olmali.");
+            out.println("Hatalı giriş. Boy ve Kilo değerleri pozitif değerler olmalı.");
             return -1;
         }
         return kilo / (Math.pow(boy,2));
