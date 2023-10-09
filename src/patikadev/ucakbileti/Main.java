@@ -50,7 +50,7 @@ public class Main {
             }
             double toplamTutar = (int)(indirimliTutar - gidisDonusIndirimi) * (yolculukTipi == 1 ? 1 : 2);
 
-            out.println("Toplam Tutar = " + toplamTutar + "TL");
+            out.println("Toplam Tutar = " + toplamTutar + " TL");
         }
     }
 }
