@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 import static java.lang.System.*;
 
+/**
+ * The Main program implements an application that
+ * finds the largest and smallest numbers among N
+ * counting numbers entered from the keyboard and
+ * writes these numbers to the screen.
+ *
+ * @author Mehmet Uğur Yıldırım
+ * @version 0.0.1
+ * @since 2023-10-10
+ */
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
@@ -29,5 +40,7 @@ public class Main {
         }
         out.println("En buyuk sayi: " + enBuyuk);
         out.println("En kucuk sayi: " + enKucuk);
+
+        scanner.close();
     }
 }
