@@ -4,6 +4,15 @@ import java.util.Scanner;
 
 import static java.lang.System.*;
 
+/**
+ * The Main program implements an application that
+ * uses the Recursive method to find out whether the
+ * number received from the user is a "Prime" number.
+ * @author Mehmet Uğur Yıldırım
+ * @version 0.0.1
+ * @since 2023-10-10
+ */
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
