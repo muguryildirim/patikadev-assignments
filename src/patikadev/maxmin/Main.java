@@ -30,7 +30,7 @@ public class Main {
         int enBuyuk = Integer.MIN_VALUE;
         int enKucuk = Integer.MAX_VALUE;
 
-        for(int i = 0; i <= n; i++){
+        for(int i = 0; i < n; i++){
             out.print((i + 1) + ". Sayıyı giriniz: ");
             int sayi = scanner.nextInt();
 
