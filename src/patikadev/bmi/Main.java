@@ -26,6 +26,5 @@ public class Main {
         double kitleIndex = kilo / (Math.pow(boy,2));
 
         out.println("Vücut Kitle İndeksiniz : " + kitleIndex);
-
     }
 }
