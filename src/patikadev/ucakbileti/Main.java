@@ -18,19 +18,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
 
-        out.print("Mesafeyi km turunden giriniz: ");
+        out.print("Mesafeyi km türünden giriniz : ");
         int mesafe = scanner.nextInt();
 
-        out.print("Yasinizi Giriniz: ");
+        out.print("Yaşınızı giriniz : ");
         int yas = scanner.nextInt();
 
-        out.print("Yolculuk tipini giriniz (1 => Tek Yon, 2 => Gidis Donus): ");
+        out.print("Yolculuk tipini giriniz (1 => Tek Yön , 2 => Gidiş Dönüş ): ");
         int yolculukTipi = scanner.nextInt();
 
         scanner.close();
 
         if(mesafe <= 0 || yas <= 0 || (yolculukTipi != 1 && yolculukTipi != 2)){
-            out.println("Hatali Veri Girdiniz!");
+            out.println("Hatalı Veri Girdiniz !");
         } else {
             double normalTutar = mesafe * 0.10;
 
@@ -48,7 +48,7 @@ public class Main {
             if(yolculukTipi == 2){
                 gidisDonusIndirimi = indirimliTutar * 0.20;
             }
-            int toplamTutar = (int)(indirimliTutar - gidisDonusIndirimi) * (yolculukTipi == 1 ? 1 : 2);
+            double toplamTutar = (int)(indirimliTutar - gidisDonusIndirimi) * (yolculukTipi == 1 ? 1 : 2);
 
             out.println("Toplam Tutar = " + toplamTutar + "TL");
         }
