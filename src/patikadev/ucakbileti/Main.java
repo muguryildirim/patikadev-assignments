@@ -48,7 +48,7 @@ public class Main {
             if(yolculukTipi == 2){
                 gidisDonusIndirimi = indirimliTutar * 0.20;
             }
-            double toplamTutar = (int)(indirimliTutar - gidisDonusIndirimi) * (yolculukTipi == 1 ? 1 : 2);
+            double toplamTutar = (indirimliTutar - gidisDonusIndirimi) * (yolculukTipi == 1 ? 1 : 2);
 
             out.println("Toplam Tutar = " + toplamTutar + "TL");
         }
