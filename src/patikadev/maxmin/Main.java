@@ -38,8 +38,8 @@ public class Main {
             enKucuk = Math.min(enKucuk, sayi);
 
         }
-        out.println("En buyuk sayi: " + enBuyuk);
-        out.println("En kucuk sayi: " + enKucuk);
+        out.println("En büyük sayı: " + enBuyuk);
+        out.println("En küçük sayı: " + enKucuk);
 
         scanner.close();
     }
