@@ -23,8 +23,16 @@ public class Main {
         out.print("Lütfen kilonuzu giriniz : ");
         double kilo = scanner.nextDouble();
 
-        double kitleIndex = kilo / (Math.pow(boy,2));
+        double kitleIndex = vkiHesapla(boy, kilo);
 
         out.println("Vücut Kitle İndeksiniz : " + kitleIndex);
+    }
+
+    public static double vkiHesapla(double boy, double kilo){
+        if (boy <= 0 || kilo <= 0){
+            out.println("Hatali giris. Boy ve Kilo degerleri pozitif degerler olmali.");
+            return -1;
+        }
+        return kilo / (Math.pow(boy,2));
     }
 }
