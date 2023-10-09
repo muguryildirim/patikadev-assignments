@@ -17,15 +17,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
 
-        out.println("Lutfen Kilonuzu Giriniz -kg : ");
+        out.print("Lutfen Kilonuzu Giriniz -kg : ");
         double kilo = scanner.nextDouble();
 
-        out.println("Lutfen Boyunuzu Giriniz -m : ");
+        out.print("Lutfen Boyunuzu Giriniz -m : ");
         double boy = scanner.nextDouble();
 
         double kitleIndex = kilo / (Math.pow(boy,2));
 
-        out.println("Vucut Kitle Indexiniz" + kitleIndex);
+        out.println("Vucut Kitle Indexiniz : " + kitleIndex);
 
     }
 }
