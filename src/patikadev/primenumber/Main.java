@@ -19,6 +19,7 @@ public class Main {
         out.print("Sayı Giriniz: ");
         int sayi = scanner.nextInt();
         scanner.close();
+
         if(sayi <= 1){
             out.println(sayi + " sayısı ASAL değildir !");
         } else if (asalMi(sayi, 2)){
